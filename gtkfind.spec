@@ -10,8 +10,6 @@ URL:		http://www.oz.net/~mattg/download.html
 Vendor:		Matt Grossman <mattg@oz.net>
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
-%define		_mandir		%{_prefix}/man
 
 %description
 gtkfind is a graphical file finding program, written by Matt Grossman
