@@ -26,7 +26,7 @@ GNU GPL. Wymaga X oraz biblioteki gtk (któr± mo¿na uzyskaæ np. z
 www.gtk.org).
 
 %prep
-%setup -q 
+%setup -q
 
 %build
 CFLAGS="%{rpmcflags}" ./configure --prefix=/usr
