@@ -1,13 +1,13 @@
 Summary:	A graphical file finding program
 Summary(pl):	Graficzny program do szukania plików
 Name:		gtkfind
-Version:	1.0.2
+Version:	1.1
 Release:	1
 License:	GPL
 Group:		X11/Applications
-#Source0:	http://www.oz.net/~mattg/%{name}-%{version}.tar.gz
-Source0:	%{name}-%{version}.tar.gz
-# Source0-md5:	a4fb5d2fa02f56b5f57fe47a915d3ea0
+# from Mandrake src.rpm
+Source0:	%{name}-%{version}.tar.bz2
+# Source0-md5:	6a894f3a798189cf74e7d61ddf1179f6
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 
