@@ -8,7 +8,7 @@ Source0  : http://www.oz.net/~mattg/gtkfind-1.0.tar.gz
 URL      : http://www.oz.net/~mattg/download.html
 Vendor   : Matt Grossman <mattg@oz.net>
 Packager : Tom Weber <x@4t2.com>
-BuildRoot: /var/tmp/gtkfind
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 gtkfind is a graphical file finding program, written by Matt Grossman
