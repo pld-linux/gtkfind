@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://www.oz.net/~mattg/%{name}-%{version}.tar.gz
+# Source0-md5:	5d527d714be258506d09e40cfb77adfd
 URL:		http://www.oz.net/~mattg/download.html
 Vendor:		Matt Grossman <mattg@oz.net>
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
