@@ -30,7 +30,7 @@ www.gtk.org).
 
 %build
 CFLAGS="$RPM_OPT_FLAGS" ./configure --prefix=/usr
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
