@@ -1,10 +1,10 @@
 Summary  : A graphical file finding program
 Name     : gtkfind
-Version  : 1.0
+Version  : 1.0.2
 Release  : 1
 Copyright: GPL
 Group    : X11/Utilities
-Source0  : http://www.oz.net/~mattg/gtkfind-1.0.tar.gz
+Source0  : http://www.oz.net/~mattg/gtkfind-1.0.2.tar.gz
 URL      : http://www.oz.net/~mattg/download.html
 Vendor   : Matt Grossman <mattg@oz.net>
 Packager : Tom Weber <x@4t2.com>
