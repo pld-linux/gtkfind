@@ -1,10 +1,12 @@
 Summary:	A graphical file finding program
+Summary(pl):	Graficzny program do szukania plików
 Name:		gtkfind
 Version:	1.0.2
 Release:	1
 License:	GPL
-Group:		X11/Utilities
-Group(pl):	X11/Narzêdzia
+Group:		X11/Applications
+Group(de):	X11/Applikationen
+Group(pl):	X11/Aplikacje
 Source0:	http://www.oz.net/~mattg/%{name}-%{version}.tar.gz
 URL:		http://www.oz.net/~mattg/download.html
 Vendor:		Matt Grossman <mattg@oz.net>
@@ -29,22 +31,22 @@ www.gtk.org).
 %setup -q 
 
 %build
-CFLAGS="$RPM_OPT_FLAGS" ./configure --prefix=/usr
+CFLAGS="%{rpmcflags}" ./configure --prefix=/usr
 %{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
-XBD=$RPM_BUILD_ROOT%{_prefix}/bin
-XMD=$RPM_BUILD_ROOT%{_prefix}/man/man1
-BD=$RPM_BUILD_ROOT%{_bindir}
-MD=$RPM_BUILD_ROOT/usr/man/man1
+XBD=$RPM_BUILD_ROOT%{_bindir}
+XMD=$RPM_BUILD_ROOT%{_mandir}/man1
+BD=$RPM_BUILD_ROOT/usr/bin
+MD=$RPM_BUILD_ROOT/usr/share/man/man1
 test -d $XBD || install -d $XBD
 test -d $XMD || install -d $XMD
 test -d $BD || install -d $BD
 test -d $MD || install -d $MD
-install -s -m 555 gtkfind $XBD
+install -m 555 gtkfind $XBD
 install -m 444 gtkfind.1 $XMD
-install -s -m 555 mktmp $BD
+install -m 555 mktmp $BD
 install -m 444 mktmp.1 $MD
 
 %clean
@@ -53,7 +55,7 @@ rm -fr $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %attr(-, root, root) %doc README TODO
-%attr(555, root, root) %{_prefix}/bin/gtkfind
-%attr(444, root, root) %{_prefix}/man/man1/gtkfind.1
-%attr(555, root, root) %{_bindir}/mktmp
-%attr(444, root, root) /usr/man/man1/mktmp.1
+%attr(555, root, root) %{_bindir}/gtkfind
+%attr(444, root, root) %{_mandir}/man1/gtkfind.1
+%attr(555, root, root) /usr/bin/mktmp
+%attr(444, root, root) /usr/share/man/man1/mktmp.1
