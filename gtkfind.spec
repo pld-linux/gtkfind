@@ -14,13 +14,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 gtkfind is a graphical file finding program, written by Matt Grossman
 <mattg@oz.net> and distributed under the terms of the GNU GPL. It
-requires X and the freely distributable (GPL) gtk toolkit to run. gtk
+requires X and the freely distributable (GPL) GTK+ toolkit to run. GTK+
 is available from http://www.gtk.org/ and other places.
 
 %description -l pl
 gtkfind jest graficznym programem do znajdowania plików, napisanym
 przez Matta Grossmana <mattg@oz.net> i rozpowszechnianym na licencji
-GNU GPL. Wymaga X oraz biblioteki gtk (któr± mo¿na uzyskaæ np. z
+GNU GPL. Wymaga X oraz biblioteki GTK+ (któr± mo¿na uzyskaæ np. z
 http://www.gtk.org/).
 
 %prep
