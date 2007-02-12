@@ -1,5 +1,5 @@
 Summary:	A graphical file finding program
-Summary(pl):	Graficzny program do szukania plików
+Summary(pl.UTF-8):   Graficzny program do szukania plikÃ³w
 Name:		gtkfind
 Version:	1.1
 Release:	1
@@ -17,10 +17,10 @@ gtkfind is a graphical file finding program, written by Matt Grossman
 requires X and the freely distributable (GPL) GTK+ toolkit to run. GTK+
 is available from http://www.gtk.org/ and other places.
 
-%description -l pl
-gtkfind jest graficznym programem do znajdowania plików, napisanym
+%description -l pl.UTF-8
+gtkfind jest graficznym programem do znajdowania plikÃ³w, napisanym
 przez Matta Grossmana <mattg@oz.net> i rozpowszechnianym na licencji
-GNU GPL. Wymaga X oraz biblioteki GTK+ (któr± mo¿na uzyskaæ np. z
+GNU GPL. Wymaga X oraz biblioteki GTK+ (ktÃ³rÄ… moÅ¼na uzyskaÄ‡ np. z
 http://www.gtk.org/).
 
 %prep
