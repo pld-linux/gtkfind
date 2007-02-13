@@ -1,5 +1,5 @@
 Summary:	A graphical file finding program
-Summary(pl.UTF-8):   Graficzny program do szukania plików
+Summary(pl.UTF-8):	Graficzny program do szukania plików
 Name:		gtkfind
 Version:	1.1
 Release:	1
