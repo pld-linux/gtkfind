@@ -9,6 +9,7 @@ Group:		X11/Applications
 Source0:	%{name}-%{version}.tar.bz2
 # Source0-md5:	6a894f3a798189cf74e7d61ddf1179f6
 BuildRequires:	gtk+-devel
+BuildRequires:	xterm
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
